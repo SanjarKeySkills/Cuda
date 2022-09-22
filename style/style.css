@@ -1,0 +1,576 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 0;
+}
+
+/* *** */
+.container {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.title {
+	margin: 0 auto;
+	padding-bottom: 1.5px;
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 62px;
+	text-align: center;
+}
+
+.desc {
+	padding-top: 19px;
+	font-family: 'Titillium Web';
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.cardBlock {
+	width: 100%;
+	max-width: 1040px;
+	display: flex;
+	justify-content: space-between;
+	margin: 73px auto 0 auto;
+	display: flex;
+	align-items: center;
+	/* gap: 85px; */
+	text-align: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+}
+
+.cardTitle {
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 37px;
+	color: #27283D;
+}
+/* *** */
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headerBlock {
+	background-color: #87509C;
+	min-height: 500px;
+	padding-bottom: 153px;
+}
+
+.header_logo {
+	margin-top: 57px;	
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	margin-top: 57px;
+	gap: 20px;
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+ul > li {
+	padding: 8px 10px;
+}
+
+ul > li:hover {
+	cursor: pointer;
+	background-color: #643A79;
+	border-radius: 3px;
+	border: none;
+}
+
+.header_bottom {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.headerText {
+	width: 850px;
+	padding-top: 100px;
+	margin: 0 auto;
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42.1529px;
+	line-height: 64px;
+	text-align: center;
+	color: #F7F3EA;
+	/* -webkit-text-stroke: 1px #000; */
+	/* text-shadow: 0px 5px 0px #000; */
+}
+
+.sub_button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+button {
+	width: 293px;
+	height: 70px;
+	background: linear-gradient(to bottom, #EB7D4B 95%, #c86a40 5%);
+	/* background: linear-gradient(to bottom, #EB7D4B 95%, #000, opacity (0.15) 5%); */
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.sub_button {
+	margin-top: 25px;
+}
+
+button {
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+.ourService {
+	height: 747px;
+	background: #17C2A4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.service {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.serviceTitle {
+	margin: 100px 0 0 0;
+	color: #FFFFFF;
+}
+
+.line {
+	width: 87px;
+	height: 4px;
+	background-color: #000;
+	opacity: 15%;
+}
+
+.serviceText {
+	width: 577px;
+	height: 54px;
+	padding-bottom: 69px;
+	color: #FFFFFF;
+}
+
+.listWrapper {
+	width: 1050px;
+	height: 310px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	gap: 111px;
+	text-align: center;
+}
+
+.listItem {
+	Font-family: "Titillium Web";
+	color: #FFFFFF;
+}
+
+.team {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.teamTop {
+	padding: 100px 0 0 0;
+
+	color: #3C4761;
+}
+
+.teamLine {
+	width: 87px;
+	height: 4px;
+	background-color: #000;
+	opacity: 15%;
+}
+
+.teamText {
+	width: 577px;
+	height: 54px;
+	padding-bottom: 69px;
+
+	color: #3C4761;
+}
+
+/* start block3 */
+
+.ourTeam {
+	padding: 107px 200px 138px 200px;
+	background: #E7F1F8;
+}
+
+.cardSubTitle {
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #30BAE7;
+}
+
+.cardDescription {
+	padding: 9px 0 37px 0;
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #3C4761;
+}
+
+.cardSocialBlock {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.cardSocialBlockWi {
+	margin: 0 auto;
+	width: 119px;
+}
+
+/* start section skills  */
+
+.ourSkills {
+	margin: 0 auto;
+	padding: 104px 220px 109px 220px;
+	background: #FFFFFF;
+}
+
+.skillsTitleBlock {
+	width: 100%;
+	text-align: -webkit-center;
+}
+
+.skills .desc {
+	max-width: 540px;
+	margin: 24px 0 79px 0;
+}
+
+.ourPortfolio {
+	padding: 107.5px 167px 109.1px 170px;
+	background-color: #FFDD99;
+}
+
+.portfolio {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolioTitleBlock {
+	width: 100%;
+	text-align: -webkit-center;
+}
+
+.portfolioCategories {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 37.13px;
+}
+
+.portfolioCategories a {
+	/* width: 84px;
+	height: 38px;
+	text-align: center;
+	align-items: center; */
+	padding: 6px 24px;
+	background: rgba(0, 0, 0, 0.08);
+	text-decoration: none;
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #393939;
+}
+
+.portfolioCategories a:not(:first-child) {
+	margin-left: 10px;
+}
+
+.portfolioCategories a:hover {
+	background: #FFFFFF;
+}
+
+
+.portfolioCardBlock {
+	padding-top: 62px;
+}
+
+.folioLine1 {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 55.97px;
+	gap: 20px;
+}
+
+.folioLine2 {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.portfolioBlockImg {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
+.portDesc {
+	padding-top: 27.03px;
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+
+.subButton2 {
+	padding-top: 74.97px;
+}
+
+.colorButton2 {
+	background: linear-gradient(to bottom, #17C2A4 95%, #0e7765 5%);
+}
+
+.subButtonText {
+	font-weight: 600;
+}
+
+.aboutUs {
+	padding: 106px 0;
+	background-color: #D74680;
+	color: #FFFFFF;
+}
+
+.aboutUsBlock {
+	margin: 0 auto;
+	padding-bottom: 86px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	text-align: -webkit-center;
+}
+
+.cardAboutBlock {
+	display: grid;
+	grid-template-columns: 300px 300px;
+	justify-content: space-evenly;
+	margin-right: 10rem;
+}
+
+.cardAboutBlock .card:nth-child(-n+2) {
+	margin-bottom: 100px;
+}
+
+.cardAboutBlock .card {
+	display: flex;
+	flex-direction: row;
+}
+
+.cardAboutBlock .card img {
+	width: 96px;
+	height: 96px;
+	margin-right: 48px;
+}
+
+.cardAboutBlock .cardTitleBlock {
+	margin-top: 10px;
+}
+
+
+.peopleCardBlock {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.peopleCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+.aboutUsText {
+	margin-bottom: 32px;
+	width: 358px;
+	font-family: 'Titillium Web';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 32px;
+}
+
+.aboutName {
+	font-family: 'Titillium Web';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 37px;
+}
+
+.aboutDesc {
+	font-family: 'Titillium Web';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.peopleLine1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.peopleLine2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.contacts {
+	background-color: #3C5499;
+	color: #FFFFFF;
+	padding: 107px 0 114px 0;
+}
+
+.contactsTitle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 72px;
+}
+
+/* --Input Area-- */
+
+.inputArea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inputBlock {
+	display: flex;
+	justify-content: space-around;
+	gap: 32px;
+	margin-bottom: 27px;
+}
+
+
+/* --------------------- */
+
+.cont {
+	position: relative;
+}
+
+.placeholder {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+.red {
+	color: red;
+}
+
+
+.form-control:focus~.placeholder,
+.form-control:valid~.placeholder
+ {
+	display: none;
+}
+
+.contacts .form-control {
+	padding: 14px 230px 14px 24px;
+	background-color: #273A71;
+	border: none;
+}
+
+.contacts .placeholder {
+	color: #FFFFFF;
+}
+
+/* --------------------- */
+
+.colorButton3 {
+	margin-top: 59px;
+	background: linear-gradient(to bottom, #30BAE7 95%, #299EC5 5%);
+}
+
+
+.textarea-placeholder {
+	position: absolute;
+	left: 20px;
+	top: 10%;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+footer {
+	padding: 41px 34px;
+	background: #344B8E;
+}
+
+.footerSocial {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerSocialItem {
+	font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 37px;
+		text-align: center;
+		text-decoration: none;
+		color: #FFFFFF;
+}
+
+.footerSocialItem:hover {
+	color: #30BAE7;
+}
+ 
